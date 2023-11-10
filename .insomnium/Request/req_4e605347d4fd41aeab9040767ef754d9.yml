@@ -1,0 +1,37 @@
+_id: req_4e605347d4fd41aeab9040767ef754d9
+type: Request
+parentId: fld_166fac656903435e8f3c8a31d91baf90
+modified: 1687426942866
+created: 1686565634640
+url: http://localhost:8080/o/headless-commerce-admin-channel/v1.0/channels/{{
+  _.channel_id }}
+name: Patch admin channel
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    			"accountId": 35504,
+    			"currencyCode": "USD",
+    			"name": "dddd 2"
+    		}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028798632.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,0 +1,36 @@
+_id: req_02355d9024a045cd8429f3df00978cdb
+type: Request
+parentId: fld_bbd800d57c11468fbdb0913245c3ebff
+modified: 1685028935962
+created: 1685028483035
+url: http://localhost:8080/o/headless-commerce-admin-pricing/v2.0/price-lists/{{
+  _.price_list_id }}/price-entries
+name: Get admin price entries
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"price": 35.0,
+    	"priceOnApplication": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028212164
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

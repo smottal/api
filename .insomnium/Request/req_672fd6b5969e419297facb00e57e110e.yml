@@ -1,0 +1,38 @@
+_id: req_672fd6b5969e419297facb00e57e110e
+type: Request
+parentId: fld_aca599dfba434361838ae2ef42a48341
+modified: 1693399659211
+created: 1691479749630
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/sku-unit-of-measures/{{
+  _.sku_uom_id }}
+name: Patch admin skus unit of measures
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"active": true,
+    	"incrementalOrderQuantity": 1,
+    	"precision": 1,
+    	"key": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028640602.0938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

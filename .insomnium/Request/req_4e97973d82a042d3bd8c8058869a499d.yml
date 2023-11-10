@@ -1,0 +1,32 @@
+_id: req_4e97973d82a042d3bd8c8058869a499d
+type: Request
+parentId: fld_aca599dfba434361838ae2ef42a48341
+modified: 1691479694790
+created: 1691479642586
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/sku-unit-of-measures/{{
+  _.sku_uom_id }}
+name: Delete admin skus unit of measures
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028649343.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

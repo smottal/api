@@ -1,0 +1,37 @@
+_id: req_c02dfa4b4b214fea857f469757b8fcb7
+type: Request
+parentId: fld_cb24ed40d2ef4371bfce9e15de739fda
+modified: 1699605485437
+created: 1699276542618
+url: http://localhost:8080/o/headless-admin-user/v1.0/accounts/{{ _.account_id }}
+name: PATCH Accounts
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "dsdsdsppp2244",
+    	"externalReferenceCode": "6531fcab-d407-9182-36ds11-8d21479a68e8",
+    	"name": "2212",
+    	"taxId": "012"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1695195408369.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

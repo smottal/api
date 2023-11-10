@@ -1,0 +1,23 @@
+_id: req_8dd9853ed1a54e63893dcf2d79dde78c
+type: Request
+parentId: fld_166fac656903435e8f3c8a31d91baf90
+modified: 1691592946345
+created: 1685028879351
+url: http://localhost:8080/o/headless-commerce-delivery-catalog/v1.0/channels?accountId={{
+  _.account_id }}
+name: Get delivery channels
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685028879351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

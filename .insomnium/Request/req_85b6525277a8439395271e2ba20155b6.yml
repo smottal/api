@@ -1,0 +1,28 @@
+_id: req_85b6525277a8439395271e2ba20155b6
+type: Request
+parentId: fld_aca599dfba434361838ae2ef42a48341
+modified: 1691484673551
+created: 1685028771726
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/products/{{
+  _.product_id }}/skus?nestedFields=skuUnitOfMeasures
+name: Get admin product skus
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028771726
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

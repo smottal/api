@@ -1,0 +1,27 @@
+_id: req_2f7b2a7a18564ef09acc9e4ce6d757cd
+type: Request
+parentId: fld_3478715aff1048eaadfef7c2e4f326ea
+modified: 1685029112358
+created: 1685029088021
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/catalogs
+name: Get admin catalogs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685029088021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

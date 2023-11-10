@@ -1,0 +1,36 @@
+_id: req_c8bd78f1514e4fed9251e97262b601d3
+type: Request
+parentId: fld_3478715aff1048eaadfef7c2e4f326ea
+modified: 1687163710933
+created: 1686921533673
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/catalog/{{
+  _.catalog_id }}
+name: Patch supplier admin catalogs
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    		{
+    			"accountId": 3511422,
+    			"name": "minium2"
+    		}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: test1@liferay.com
+  password: test
+metaSortKey: -1685028931518.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

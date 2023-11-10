@@ -1,0 +1,46 @@
+_id: req_bbe9d0b467f24321958d1aea68658f45
+type: Request
+parentId: fld_aca599dfba434361838ae2ef42a48341
+modified: 1695284725902
+created: 1691484573558
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/skus/by-externalReferenceCode/{{
+  _.sku_erc }}/sku-unit-of-measures
+name: Add admin skus unit of measures by erc
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"active": true,
+    	"basePrice": 20,
+    	"incrementalOrderQuantity": 1.3,
+    	"key": "keyQ12",
+    	"name": {
+    		"en_US": "keyQName12"
+    	},
+    	"precision": 3,
+    	"primary": true,
+    	"priority": 10.0,
+    	"promoPrice": 100,
+    	"rate": 12
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028658085.2812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,0 +1,28 @@
+_id: req_5cd521d18eec48b68366222183e0073b
+type: Request
+parentId: fld_9e791d2ec1d747b8b03c454ee3eda37a
+modified: 1693475506607
+created: 1685029455206
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/products/{{
+  _.product_id }}?nestedFields=productVirtualSettings,productConfiguration
+name: Get admin product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685029455206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

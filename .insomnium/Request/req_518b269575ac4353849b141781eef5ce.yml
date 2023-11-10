@@ -1,0 +1,28 @@
+_id: req_518b269575ac4353849b141781eef5ce
+type: Request
+parentId: fld_327051cfcda44a46847979dc3f8239cc
+modified: 1693396794465
+created: 1693396764880
+url: http://localhost:8080/o/headless-commerce-admin-inventory/v1.0//warehouseItems/by-externalReferenceCode/{{
+  _.sku_erc }}
+name: Get inventory item
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028719276.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

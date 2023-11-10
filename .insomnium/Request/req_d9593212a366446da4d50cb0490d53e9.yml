@@ -1,0 +1,36 @@
+_id: req_d9593212a366446da4d50cb0490d53e9
+type: Request
+parentId: fld_bbd800d57c11468fbdb0913245c3ebff
+modified: 1685028931203
+created: 1685028268375
+url: http://localhost:8080/o/headless-commerce-admin-pricing/v2.0/price-entries/{{
+  _.price_entry_id }}
+name: Patch admin price entry
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"price": 35.0,
+    	"priceOnApplication": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028212214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

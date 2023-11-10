@@ -1,0 +1,32 @@
+_id: req_eb7865c326a34297abcde2797004124f
+type: Request
+parentId: fld_cb24ed40d2ef4371bfce9e15de739fda
+modified: 1699605446423
+created: 1696241546264
+url: http://localhost:8080/o/headless-admin-user/v1.0/accounts/{{ _.account_id
+  }}?nestedFields=accountUserAccounts
+name: Accounts
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1695885933742.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

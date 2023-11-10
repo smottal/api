@@ -1,0 +1,36 @@
+_id: req_a46cb1c00bac4f9f8cd31eb82ad1942f
+type: Request
+parentId: fld_3478715aff1048eaadfef7c2e4f326ea
+modified: 1687511571775
+created: 1687163756959
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/catalogs
+name: Post supplier admin catalogs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    		{
+    			"name": "35428",
+    			"currencyCode": "USD",
+    		  "defaultLanguageId": "en_US"
+    		}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: user@liferay.com
+  password: test
+metaSortKey: -1685028905434.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,0 +1,27 @@
+_id: req_075838ffb8ca4da98d8036937daace0c
+type: Request
+parentId: fld_166fac656903435e8f3c8a31d91baf90
+modified: 1686565611081
+created: 1685029993436
+url: http://localhost:8080/o/headless-commerce-admin-channel/v1.0/channels
+name: Get admin channels
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028825538.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

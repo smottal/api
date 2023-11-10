@@ -1,0 +1,38 @@
+_id: req_fb2f5d766e9e4fd8a435c5a34d5b2593
+type: Request
+parentId: fld_166fac656903435e8f3c8a31d91baf90
+modified: 1687427044955
+created: 1687426988242
+url: http://localhost:8080/o/headless-commerce-admin-channel/v1.0/channels
+name: Post admin channel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"accountId": 35611	,
+    	"currencyCode": "USD",
+    	"name": "eeeee 2",
+    	"siteGroupId": 0,
+    	"type": "site"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028785179.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

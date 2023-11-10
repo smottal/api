@@ -1,0 +1,27 @@
+_id: req_42709048ffac4e3fb164c04beccc8803
+type: Request
+parentId: fld_aca599dfba434361838ae2ef42a48341
+modified: 1694080757284
+created: 1693923654661
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/unit-of-measure-skus?search=ABS
+name: Get admin sku with uom
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028754242.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,0 +1,28 @@
+_id: req_ec8674455c8b4a5394eb5fd3d32fe80b
+type: Request
+parentId: fld_c48c74819b4a411f8c7ecad41b59dbe5
+modified: 1685030095118
+created: 1685030053872
+url: http://localhost:8080/o/headless-commerce-delivery-cart/v1.0/carts/{{
+  _.cart_id }}/items
+name: Get delivery items
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685030053872
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

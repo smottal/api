@@ -1,0 +1,46 @@
+_id: req_f7cfca1b7c694107bc63e2c3b8052e26
+type: Request
+parentId: fld_9e791d2ec1d747b8b03c454ee3eda37a
+modified: 1685030427115
+created: 1685030123081
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/products?nestedFields=productVirtualSettings,mappedProducts,pins
+name: Add admin product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "active": true,
+        "catalogId": {{ _.catalog_id }},
+        "description": {
+            "en_US": "virtual post nuovo"
+        },
+        "name": {
+            "en_US": "virtual post nuovo"
+        },
+        "productStatus": 0,
+        "productType": "virtual",
+        "productVirtualSettings": {
+            "url": "https://www.google.it"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685029409307.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

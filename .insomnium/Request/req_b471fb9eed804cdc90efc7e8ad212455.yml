@@ -1,0 +1,38 @@
+_id: req_b471fb9eed804cdc90efc7e8ad212455
+type: Request
+parentId: fld_bbd800d57c11468fbdb0913245c3ebff
+modified: 1697644226517
+created: 1685028212264
+url: http://localhost:8080/o/headless-batch-engine/v1.0/headless-commerce-admin-pricing/v2.0/price-lists/{{
+  _.price_list_id }}/price-entries
+name: Add admin price entry
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"priceListId": {{ _.price_list_id }},
+    	"price": 20.0,
+    	"skuId": 34493,
+    	"unitOfMeasureKey": "ciao"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028212264
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

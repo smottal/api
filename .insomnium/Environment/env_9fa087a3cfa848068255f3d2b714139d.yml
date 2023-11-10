@@ -1,0 +1,38 @@
+_id: env_9fa087a3cfa848068255f3d2b714139d
+type: Environment
+parentId: wrk_97904ad714e741a0a43558418a59b9d9
+modified: 1699605418979
+created: 1699605177406
+name: Base Environment
+data:
+  admin: test@liferay.com
+  adminpwd: test
+  price_list_id: 34380
+  price_entry_id: 200
+  product_id: 33808
+  sku_id: 33983
+  sku_erc: MIN93015minium-initializer
+  sku_uom_id: 35155
+  catalog_id: 34016
+  channel_id: 33700
+  account_id: 39667
+  cart_id: 45422
+  warehouse_erc: 380RI2021
+dataPropertyOrder:
+  "&":
+    - admin
+    - adminpwd
+    - price_list_id
+    - price_entry_id
+    - product_id
+    - sku_id
+    - sku_erc
+    - sku_uom_id
+    - catalog_id
+    - channel_id
+    - account_id
+    - cart_id
+    - warehouse_erc
+color: null
+isPrivate: false
+metaSortKey: 1699605177406

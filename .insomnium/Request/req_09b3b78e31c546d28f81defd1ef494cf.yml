@@ -1,0 +1,28 @@
+_id: req_09b3b78e31c546d28f81defd1ef494cf
+type: Request
+parentId: fld_aca599dfba434361838ae2ef42a48341
+modified: 1691484518679
+created: 1691484425890
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/skus/by-externalReferenceCode/{{
+  _.sku_erc }}/sku-unit-of-measures
+name: Get admin skus unit of measures by erc
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028684310.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

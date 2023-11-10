@@ -1,0 +1,32 @@
+_id: req_5ec4b95a4e5e4b63b94a1c4af73066c5
+type: Request
+parentId: fld_aca599dfba434361838ae2ef42a48341
+modified: 1691584672895
+created: 1691584668078
+url: http://localhost:8080/o/headless-commerce-admin-catalog/v1.0/sku-unit-of-measures/{{
+  _.sku_uom_id }}
+name: Get admin skus unit of measures
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.admin }}"
+  password: "{{ _.adminpwd }}"
+metaSortKey: -1685028636231.2969
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []
